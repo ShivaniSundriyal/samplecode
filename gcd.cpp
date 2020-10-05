@@ -10,7 +10,7 @@ int main()
    cout << "Enter two positive integers: ";
    cin >> n1 >> n2;
 
-   cout << "H.C.F of " << n1 << " &" <<  n2 << " is: " << hcf(n1);
+   cout << "H.C.F of " << n1 << " &" <<  n2 << " is: " << hcf(n1,n2);
 
    return 0;
 }
