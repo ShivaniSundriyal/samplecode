@@ -8,7 +8,7 @@ int main()
     cout << "Enter a positive integer: ";
     cin >> n;
 
-    for (int j = 1; i <= n; ++i) {
+    for (int i = 1; i <= n; ++i) {
         sum += i;
     }
 
