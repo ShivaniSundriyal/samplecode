@@ -7,7 +7,7 @@ int main() {
     cout << "Enter three numbers: ";
     cin >> n1 >> n2 >> n3;
 
-    if(n1 >= n2 && n >= n3)
+    if(n1 >= n2 && n2 >= n3)
         cout << "Largest number: " << n1;
 
     if(n2 >= n1 && n2 >= n3)
